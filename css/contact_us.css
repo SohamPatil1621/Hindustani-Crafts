@@ -1,0 +1,107 @@
+
+body, html{
+  margin:0;
+  background-color: #191919;
+  color: #F1F1F1;
+}
+
+button{
+	background-color:#ef8b9c;
+	border-radius: 25%;
+	width: 80px;
+	cursor: pointer;
+	margin: 20px 60px;
+}
+
+button:hover{
+	background-color:#c12a44;
+}
+.bg{
+	background-image: url('../images/bg3.jpg');
+	background-size: cover;
+ 	padding: 30px;
+}
+
+.logon{
+	margin: 30px;
+	margin-top: 45px;
+}
+
+article{
+	margin: 20px;
+	margin-top: 10px;
+	color: #ffffff;
+}
+
+.contacts{
+	font-size: 20px;
+	border-left: 30px;
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	margin: 40px 0;
+}
+.contacts form{
+	width: 100%;
+	padding: 5px 0;
+	padding-left: 23%;
+	box-sizing: border-box;
+}
+.detail{
+	margin: 28px 0;
+	font-size: 20px;
+	width: 65%;
+	box-sizing: border-box;
+	float: left;
+}
+.message{
+	font-size: 20px;
+	width: 35%;
+	box-sizing: border-box;
+	float: right;
+}
+.detail td{
+	padding:0;
+}
+aside{
+	float: right;
+	width: 50%;
+	box-sizing: border-box;
+}
+
+input{
+	height: 25px;
+	border: none;
+	border-radius: 5px;
+	margin: 5px 20px;
+	width: 50%;
+}
+
+textarea{
+	margin: 5px 4px;
+	height: 30px;	
+	border: none;
+	border-radius: 5px;
+	width: 50%;
+}
+figure a{
+	margin-right: 10px;
+}
+.vl{
+	border:solid white 1.5px;
+	width: 0;
+	height: 300px;
+}
+/*Resizing website for mobile browsers*/
+@media only screen and (max-width: 992px){
+	.contacts, aside{
+		float: none;
+		width: 100%;
+	}
+	aside{
+		margin-top: 20px;
+	}
+	input, textarea{
+		width: 70%;
+	}
+}

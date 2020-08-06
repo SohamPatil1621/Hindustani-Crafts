@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="../css/cart.css">
+  <link rel="stylesheet" type="text/css" href="../css/include.css">
+  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <title>Cart</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body>
+  <header class="nav-header">
+    <img class="logo" src="../images/craft.jpg" alt="logo">
+    <h1>Basantacrafts</h1>
+    <div class="navbar">    
+      <nav>
+        <ul>
+          <li><a href="../home.html" class="active">Home</a></li>
+          <li><a href="../html/contact_us.html">Contact Us</a></li>
+          <li><a href="../html/login.html">Login</a></li>
+          <li><a href="../html/products.html">Products</a></li>
+          <li><a href="../html/review.html">Review</a></li> 
+        </ul> 
+      </nav>
+    </div>
+    <img id="menuBar" src="../images/menuIcon.png" alt="">
+  </header>
+  <div id="mobile-nav">
+    <ul>
+      <li><a href="../home.html" class="active"> Home </a></li>
+      <li><a href="../html/contact_us.html"> Contact Us </a></li>
+      <li><a href="../html/login.html"> Login </a></li>
+      <li><a href="../html/products.html"> Products </a></li>
+      <li><a href="../html/review.html"> Review </a></li>
+    </ul>
+  </div>
+  <div id="bg">
+  <div class="shadow">
+  <table>
+  <div class="simpleCart_items"></div>
+  <div class="grand"><p>Grand Total : </p><p class="simpleCart_total"></p></div>
+  </table>
+  <a href="products.html"><button type="button" name="button" style="width: 80px; padding: 5px; margin-left: 53.3%;" onclick="simpleCart.empty();">Checkout</button></a>
+  </div>
+  </div>
+  <footer>
+    <p>Copyright &copy; 2018</p>
+  </footer>
+
+  <script src="../javascript/jquery-3.3.1.min.js"></script>
+  <script src="../javascript/canvas.js"></script>
+  <script src="../javascript/simpleCart.js" charset="utf-8"></script>
+  <script src="../javascript/navbar.js"></script>
+
+</body>
+</html>
